@@ -1,0 +1,60 @@
+.currentday-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: sans-serif;
+}
+
+.data-left {
+  margin: 20px;
+  font-size: 35px;
+}
+
+.data-middle {
+  margin: 50px 10px;
+  padding: 10px 15px;
+  height: 90px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  background-color: lightblue;
+  color: black;
+  font-family: sans-serif;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px -1px black;
+}
+
+.data-middle span {
+  margin-top: 3px;
+}
+
+.data-right {
+  margin: 20px 40px;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data-min-max {
+  margin: 8px 0;
+}
+
+.data-min {
+  background-color: blue;
+  padding: 7px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.data-max {
+  background-color: orange;
+  padding: 7px;
+  border-radius: 5px;
+  color: black;
+}
+
+.weather-icon {
+  width: 70px;
+  height: 100%;
+}

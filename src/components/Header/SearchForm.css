@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 130px;
+}
+
+.search__text {
+  height: 35px;
+  width: 180px;
+  padding-left: 10px;
+  border: none;
+  font-size: 18px;
+  background-color: lightblue;
+  border-radius: 3px;
+}
+
+.search__button {
+  margin: 0 20px;
+  background-color: lightblue;
+  border: none;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.search__button:hover {
+  background-color: orange;
+}
